@@ -1,0 +1,6 @@
+version: 1
+build:
+  - npm: true
+  - pip: requirements.txt
+run:
+  - command: streamlit run --server.port $PORT aa.py
